@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { setSelectedClient } from "@store/clientReducer";
 import useFetchData from "@hooks/useFetchData";
-import Pagination from "@components/ui/pagination/pagination";
+import Pagination from "@components/ui/pagination/Pagination";
 import CardList from "@components/card/CardList";
 import { Link } from "react-router";
 const Clientes = () => {
