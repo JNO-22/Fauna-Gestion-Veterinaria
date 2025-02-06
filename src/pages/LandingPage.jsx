@@ -31,7 +31,12 @@ const Home = () => {
         </p>
         <div className="flex justify-evenly items-center py-12 flex-col md:flex-row w-full gap-10">
           <Link to="/clientes">
-            <Card title="Clientes" color="bg-brand-lightblue" />
+            <Card
+              title="Clientes"
+              color="bg-brand-lightblue"
+              image1="src\assets\per-perro-salch.png"
+              image2="src\assets\per-perro-blan.png"
+            />
           </Link>
           <p className="md:hidden text-lg opacity-95 font-light">
             Gestiona a las mascotas de tus clientes y organiza sus citas
@@ -43,8 +48,8 @@ const Home = () => {
         <div className="flex flex-row items-center">
           <Link className="flex-1" to="/turnos">
             <Card
-              image1="/src/assets/turnos.png"
-              image2="/src/assets/turnos2.png"
+              image1="src\assets\vet-holding-pup.png"
+              image2="src\assets\vet-smiling-cam.png"
               title="Turnos"
               color="bg-green-200"
             />

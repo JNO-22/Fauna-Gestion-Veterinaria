@@ -21,13 +21,13 @@ const ClientDetail = () => {
   );
 
   return (
-    <div className="flex flex-col gap-10 min-h-screen py-20 px-10 items-center justify-center">
-      <div className="flex w-full max-h-2/4 flex-row items-center gap-8">
+    <div className="flex flex-col gap-10 min-h-screen py-20  items-center justify-center">
+      <div className="flex w-full max-h-2/4 flex-row items-center justify-end gap-8">
         {<ClientForm newClient={newClient} />}
         <img
-          src="/src/assets/golden.png"
-          alt="golden"
-          className="w-1/3 h-full pointer-events-none md:hidden mask mask-squircle"
+          src="/src/assets/side-view-woman.png"
+          alt="Side View Woman"
+          className="w-1/4  h-full pointer-events-none md:hidden rounded-l-full"
         />
       </div>
       <div
