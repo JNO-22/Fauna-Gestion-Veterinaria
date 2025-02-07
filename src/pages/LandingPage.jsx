@@ -16,8 +16,8 @@ const Home = () => {
           </p>
         </div>
         <img
-          src="/src/assets/dog-3234285_1920.png"
-          alt="golden"
+          src={"/src/assets/dog-3234285_1920.png"}
+          alt="Perro"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="bg-amber-200 mask mask-squircle sm:w-1/2 w-0"
         />
