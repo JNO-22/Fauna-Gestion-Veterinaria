@@ -16,7 +16,7 @@ const Home = () => {
           </p>
         </div>
         <img
-          src={"/src/assets/dog-3234285_1920.png"}
+          src={"/assets/dog-3234285_1920.png"}
           alt="Perro"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="bg-amber-200 mask mask-squircle sm:w-1/2 w-0"
@@ -34,8 +34,8 @@ const Home = () => {
             <Card
               title="Clientes"
               color="bg-brand-lightblue"
-              image1="src\assets\per-perro-salch.png"
-              image2="src\assets\per-perro-blan.png"
+              image1="\assets\per-perro-salch.png"
+              image2="\assets\per-perro-blan.png"
             />
           </Link>
           <p className="md:hidden text-lg opacity-95 font-light">
@@ -48,8 +48,8 @@ const Home = () => {
         <div className="flex flex-row items-center">
           <Link className="flex-1" to="/turnos">
             <Card
-              image1="src\assets\vet-holding-pup.png"
-              image2="src\assets\vet-smiling-cam.png"
+              image1="\assets\vet-holding-pup.png"
+              image2="\assets\vet-smiling-cam.png"
               title="Turnos"
               color="bg-green-200"
             />

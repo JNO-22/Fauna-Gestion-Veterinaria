@@ -58,7 +58,7 @@
 
 .HeroImage {
   background-image: linear-gradient(180deg, #00000000 60%, #0d1b11),
-    url("/src/assets/akita-5964180_1920.jpg");
+    url("/assets/akita-5964180_1920.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@
         rgba(0, 0, 0, 0.5) 80%,
         rgba(0, 0, 0, 0.8) 100%
       ),
-      url("/src/assets/akita-5964180_1920.jpg");
+      url("/assets/akita-5964180_1920.jpg");
   }
 }
 

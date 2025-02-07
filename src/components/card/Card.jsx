@@ -3,12 +3,12 @@ const Card = ({ image1, image2, title, color }) => {
     <div className="card group z-0 w-96 shadow-md">
       <figure className={`${color} pt-15 rounded-lg`}>
         <img
-          src={image1 || "/src/assets/golden.png"}
+          src={image1 || "/assets/golden.png"}
           className="pointer-events-none w-full h-80 object-contain transition duration-200 ease-in-out group-hover:opacity-0"
           alt={title}
         />
         <img
-          src={image2 || "/src/assets/dog-3234285_1920.png"}
+          src={image2 || "/assets/dog-3234285_1920.png"}
           className="pointer-events-none w-full h-80 object-contain absolute opacity-0 transition duration-200 ease-in-out group-hover:opacity-100"
           alt={title}
         />

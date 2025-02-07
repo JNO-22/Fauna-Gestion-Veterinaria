@@ -25,7 +25,7 @@ const ClientDetail = () => {
       <div className="flex w-full max-h-2/4 flex-row items-center justify-end gap-8">
         {<ClientForm newClient={newClient} />}
         <img
-          src="/src/assets/side-view-woman.png"
+          src="/assets/side-view-woman.png"
           alt="Side View Woman"
           className="w-1/4  h-full pointer-events-none md:hidden rounded-l-full"
         />

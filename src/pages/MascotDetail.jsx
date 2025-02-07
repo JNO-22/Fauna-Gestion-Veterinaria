@@ -22,7 +22,7 @@ const MascotDetail = () => {
       <div className="flex w-full max-h-2/4 flex-row items-center justify-center">
         <MascotaForm newMascot={newMascot} />
         <img
-          src="/src/assets/golden.png"
+          src="/assets/golden.png"
           alt="golden"
           className="w-0 bg-brand-lightpink mask mask-squircle h-full pointer-events-none md:w-1/3"
         />
